@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navAdd"
+        android:icon="@drawable/ic_baseline_developer_board_24"
+        android:title="Add" />
+
+    <item
+        android:id="@+id/navAdd2"
+        android:icon="@drawable/ic_baseline_add_to_queue_24"
+        android:title="Add2" />
+
+
+    <item android:title="@string/general">
+
+        <menu>
+            <item
+                android:id="@+id/navChangeProfile"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="@string/profile_picture" />
+            <item
+                android:id="@+id/navLogOut"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+    <item android:title="@string/config">
+
+        <menu>
+            <item
+                android:id="@+id/navGeneralSettings"
+                android:icon="@drawable/ic_baseline_build_24"
+                android:title="@string/general_settings" />
+
+            <item
+                android:id="@+id/navSettings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/pro_settings" />
+        </menu>
+    </item>
+
+</menu>
