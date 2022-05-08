@@ -1,7 +1,6 @@
 # Code snippets 
 
 ---
-
 ## Auth with Google
 
 ```java
@@ -206,3 +205,55 @@ public class MainActivity extends AppCompatActivity {
         sendUserToLoginPage();
     }
  ```
+ 
+ ## Firebase Read and Write
+ 
+ ```java
+ 
+ private void setValueOnChange(DatabaseReference databaseReference, TextView textView) {
+        // Look for the data change(read)
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                // This method is called whenever data at this location is updated.
+                String value = dataSnapshot.getValue(String.class);
+                textView.setText(value);
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+                // Failed to read value
+                Log.w(TAG, "Failed to read value.", databaseError.toException());
+            }
+        });
+}
+
+DatabaseReference.setValue(//Enter the value to be written in firebase database);
+```
+
+## Demo Dialog
+
+```java
+private void buildDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        View view = getLayoutInflater().inflate(R.layout.dialog_add, null);
+
+        builder.setView(view);
+        builder.setTitle("Enter Name")
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+
+        mDialog = builder.create();
+    }
+```
