@@ -1,6 +1,7 @@
 # Code snippets 
 
 ---
+
 ## Auth with Google
 
 ```java
@@ -257,3 +258,5 @@ private void buildDialog() {
         mDialog = builder.create();
     }
 ```
+
+Note these are code snippets used in the app it's not a complete code
