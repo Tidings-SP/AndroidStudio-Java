@@ -35,7 +35,7 @@
 
 # Authentication Page
 
-![](https://github.com/Tidings-SP/AndroidStudio-Java/blob/main/App-With-Firebase/Sample-Screen-Shots/auth.jpg?raw=true)
+![auth](https://github.com/Tidings-SP/AndroidStudio-Java/blob/main/App-With-Firebase/Sample-Screen-Shots/auth.jpg?raw=true)
 
 # Home Screen
 
