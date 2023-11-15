@@ -35,29 +35,26 @@
 
 # Authentication Page
 
-![auth](https://github.com/Tidings-SP/AndroidStudio-Java/blob/main/App-With-Firebase/Sample-Screen-Shots/auth.jpg?raw=true)
+![auth](https://github.com/Tidings-SP/AndroidStudio-Java/assets/76809211/469314f3-639c-4f14-96b7-41e58bba0c59)
 
 # Home Screen
-
-![](https://github.com/Tidings-SP/AndroidStudio-Java/blob/main/App-With-Firebase/Sample-Screen-Shots/home.jpg)
+![home](https://github.com/Tidings-SP/AndroidStudio-Java/assets/76809211/6e60b8a3-3fbf-4544-a56d-49d2b0734fc3)
 
 # NavDrawer
-
-![](https://github.com/Tidings-SP/AndroidStudio-Java/blob/main/App-With-Firebase/Sample-Screen-Shots/nav.jpg)
+![nav](https://github.com/Tidings-SP/AndroidStudio-Java/assets/76809211/3afee558-9f97-4595-9914-e3450692508a)
 
 # Cloud Action Activity with a demo expandable menu
 
-![](https://github.com/Tidings-SP/AndroidStudio-Java/blob/main/App-With-Firebase/Sample-Screen-Shots/read.jpg)
-
-![](https://github.com/Tidings-SP/AndroidStudio-Java/blob/main/App-With-Firebase/Sample-Screen-Shots/menu.jpg)
+![read](https://github.com/Tidings-SP/AndroidStudio-Java/assets/76809211/8b7bb5a4-0e88-4441-a442-b5eb81cff217)
+![menu](https://github.com/Tidings-SP/AndroidStudio-Java/assets/76809211/3e9ac13a-9b0f-4bb1-a1b0-cb7d5a1947a4)
 
 # Demo Dialog Box
 
-![](https://github.com/Tidings-SP/AndroidStudio-Java/blob/main/App-With-Firebase/Sample-Screen-Shots/dialog.jpg)
+![dialog](https://github.com/Tidings-SP/AndroidStudio-Java/assets/76809211/dc4277d6-8709-4fba-b0e1-fb0d1d911d20)
 
 
 
-### In the Firebase database basic read and write operation is performed.
+### In the Firebase database basic CRUD operation is performed.
 
 
 ---
